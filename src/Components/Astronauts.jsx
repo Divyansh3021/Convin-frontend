@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card'
 import "./Style/Rocket.css"
+import data from "../JSONs/Astronautcards.json"
 
 function Astronauts() {
   return (
@@ -32,11 +33,9 @@ function Astronauts() {
             <hr style={{height: "4px", width: "85%", alignSelf: "flex-start", marginLeft: "3.5vw"}} />
 
 
-            <Card category = "Rockets" name = "Thunder bird" link = "https://www.youtube-nocookie.com/embed/i8eBBG46H8A"/>
-            <Card category = "Rockets" name = "Thunder bird" link = "https://www.youtube-nocookie.com/embed/i8eBBG46H8A"/>
-            <Card category = "Rockets" name = "Thunder bird" link = "https://www.youtube-nocookie.com/embed/i8eBBG46H8A"/>
-            <Card category = "Rockets" name = "Thunder bird" link = "https://www.youtube-nocookie.com/embed/i8eBBG46H8A"/>
-            <Card category = "Rockets" name = "Thunder bird" link = "https://www.youtube-nocookie.com/embed/i8eBBG46H8A"/>
+            {
+            data.map((element) => <Card id={element.id} thumb={element.thumb} category = {element.category} name = {element.name} link = {element.link}/>)
+            }
         </div>
     </div>
   )

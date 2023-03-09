@@ -1,9 +1,9 @@
 import React from 'react'
 import Bucket from './Bucket'
 import "./Style/Buckets.css"
-import { Link } from 'react-router-dom'
-import Astronauts from './Astronauts'
-import Food from './Food'
+// import { Link } from 'react-router-dom'
+// import Astronauts from './Astronauts'
+// import Food from './Food'
 
 function Buckets() {
   return (

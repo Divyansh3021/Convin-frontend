@@ -18,7 +18,7 @@ function Card(props) {
     <div className='card' id={props.id}>
 
       <div className="left">
-        <img src={require("./Assets/scifi_astronaut.jpg")} className = "card_thumb" alt="" />
+        <img src={props.thumb} className = "card_thumb" alt="" />
       </div>
 
       <div className='card-info'>

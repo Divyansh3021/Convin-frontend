@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Style/Navbar.css"
-import Rocket_data from "../JSONs/Rocketcards.json"
+// import Rocket_data from "../JSONs/Rocketcards.json"
 
 function Navbar() {
 

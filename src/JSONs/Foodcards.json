@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Canned Fish",
+        "thumb": "https://www.bigbasket.com/media/uploads/p/xxl/40037997_5-golden-prize-canned-sardine-in-brine.jpg",
+        "link": "https://www.youtube.com/embed/jpTwHAt0Zxw",
+        "category": "Food"
+    },
+    {
+        "id": 2,
+        "name": "Ice Cream",
+        "thumb": "https://images.herzindagi.info/image/2020/Jun/chocolate-parle-g-ice-cream.jpg",
+        "link": "https://www.youtube.com/embed/L8iq_oyBmAg",
+        "category": "Food"
+    },
+    {
+        "id": 3,
+        "name": "Protien Bars",
+        "thumb": "https://thebigmansworld.com/wp-content/uploads/2022/06/homemade-protein-bars2.jpg",
+        "link": "https://www.youtube.com/embed/0ipHBbz0vtw",
+        "category": "Food"
+    }
+]

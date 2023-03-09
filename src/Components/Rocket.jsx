@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Card from './Card'
 import "./Style/Rocket.css"
 import data from "../JSONs/Rocketcards"
 
 function Rocket() {
 
-  var category = "Rocket";
-  var parent = document.getElementById("rocket-cards");
+  // var category = "Rocket";
+  // var parent = document.getElementById("rocket-cards");
   // const populate_rocket = data.forEach((element) => {
   //   if (element.category == category){
 
@@ -59,7 +59,7 @@ function Rocket() {
             <hr style={{height: "4px", width: "85%", alignSelf: "flex-start", marginLeft: "3.5vw"}} />
 
             {
-              data.map((element) => <Card id={element.id} category = {element.category} name = {element.name} link = {element.link}/>)
+              data.map((element) => <Card id={element.id} thumb={element.thumb} category = {element.category} name = {element.name} link = {element.link}/>)
             }
             {/* <Card category = "Rockets" name = "Thunder bird" link = "https://www.youtube-nocookie.com/embed/i8eBBG46H8A"/>
             <Card category = "Rockets" name = "Thunder bird" link = "https://www.youtube-nocookie.com/embed/i8eBBG46H8A"/> */}

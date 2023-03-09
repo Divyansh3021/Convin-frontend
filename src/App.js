@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
-import Cards_show from './Components/Cards_show';
+// import Cards_show from './Components/Cards_show';
 import Hero from './Components/Hero';
 import Buckets from './Components/Buckets';
 import Rocket from './Components/Rocket';
