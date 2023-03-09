@@ -9,7 +9,7 @@ function Hero() {
           Our goal
         </div>
         <div className='hero-content'>
-          Bring home a new best friend by Adopting
+          Let the journey to a new home begin.
         </div>
       </div>
 
