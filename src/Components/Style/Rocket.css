@@ -1,0 +1,76 @@
+.bucket-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.head-info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 2vw;
+    margin-top: 3vw;
+    left: 0pc;
+    background-blend-mode: darken;
+}
+
+.head-info h3{
+    color: grey;
+    font-size: 3vh;
+}
+
+.head-info h2{
+    color: whitesmoke;
+    font-size: 6vh;
+    font-weight: lighter;
+}
+
+.style_container{
+    background-color: greenyellow;
+    height: 100%;
+    width: 3%;
+    z-index: 5;
+    margin-left: 16vw;
+}
+
+.cards-up{
+    min-height: 40%;
+    max-height: 40%;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-left: 20px solid greenyellow;
+    z-index: 5;
+    position: relative;
+}
+.cards-down{
+    min-height: 60%;
+    max-height: 60%;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-left: 20px solid black;
+    z-index: 5;
+    position: relative;
+}
+
+.cards_container{
+    background-color: greenyellow;
+    width: 47%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.cards-h1{
+    font-size: 6vh;
+    font-weight: lighter;
+    align-self: flex-start;
+    margin-left: 3.5vw;
+    margin-top: 2vh;
+    margin-bottom: -1vh;
+}

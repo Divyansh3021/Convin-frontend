@@ -1,0 +1,67 @@
+.hero-content{
+    color: whitesmoke;
+    font-size: 9vh;
+    width: 80%;
+    padding-left: 5vw;
+    font-weight: lighter;
+}
+
+.hero-info{
+    width: 40%;
+}
+
+.hero-head{
+    color: grey;
+    font-size: 3vh;
+    padding-left: 5vw;
+    margin-top: 5vh;
+}
+.video-head{
+    color: grey;
+    font-size: 2vh;
+    padding-left: 2vh;
+    margin-top: 4vh;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+}
+
+.video{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border-radius: 10px;
+    width: 45%;
+    background: url("https://cdn.britannica.com/36/191436-050-FAE2DD40/planet-Artist-impression-surface-mass-b-Proxima.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.video-content{
+    color: whitesmoke;
+    font-size: 5vh;
+    width: 40%;
+    padding-left: 2vh;
+    font-weight: lighter;
+}
+
+
+.play{
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    align-items: center;
+    justify-items: center;
+    margin-top: 12vh;
+    margin-left: 2vh;
+}
+
+.play-btn{
+    cursor: pointer;
+}
+
+.content{
+    margin-left: 1vh;
+    font-size: 2vh;
+}

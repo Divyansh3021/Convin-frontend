@@ -1,0 +1,14 @@
+.buckets{
+    margin: 4vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* height: 35vh; */
+    /* overflow-x: scroll; */
+    /* overflow-x: auto; */
+    /* background-color: blanchedalmond; */
+    /* height: 45vh; */
+    /* width: 100%; */
+}
